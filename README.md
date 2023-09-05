@@ -1,1 +1,3 @@
 # HoverboardDR1
+
+We are HoverDR1, a team comprised of 6 students currently at the University of Texas at Dallas (Trankley Mahler, Kevin Mikhaiel, Tate Froh, Jonathan Abshiro, William Lim, and Jimmy Tran) working on reducing e-waste in the home by breathing new life into Hoverboard devices! We have created a kit for students to learn the basics of engineering, computer science, and physics by using audio waves to control their hoverboards remotely. Powered by an Arduino Uno and coded in C, this module allows students to take their creativity to the next level, creating a platform that has little restriction for the imagination.
