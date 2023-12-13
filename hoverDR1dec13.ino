@@ -258,7 +258,7 @@ void directionControl(int direction){
 unsigned long int emergencyStopTimer(unsigned long int elapsedTime, unsigned long int totalTime, bool command){
   totalTime += elapsedTime; 
   // Total time is in milliseconds so 10000 10 seconds
-  if ( totalTime >= 10000 && command == false){
+  if ( totalTime >= 5000 && command == false){
     linearActuator.write(LINEARACTUATORANGLE); // the servo moves 90 degrees or in this case moves up to push the button this can be fine tuned with experimentation
     delay(500);
     linearActuator.write(LINEARACTUATORDEFAULT);
